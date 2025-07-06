@@ -1,7 +1,7 @@
 # 🧠 Predictive Model for Pressure Injury Progression
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Built With](https://img.shields.io/badge/Built%20With-Python%20%7C%20Scikit--learn%20%7C%20pandas%20%7C%20h5py-blueviolet)
+![Built With](https://img.shields.io/badge/Built%20With-Python%20%7C%20Scikit--learn%20%7C%20pandas%20%7C%20numpy%20%7C%20h5py-blueviolet)
 
 > An AI-driven healthcare project that predicts the progression of pressure injuries using multimodal clinical and sensor data.
 
