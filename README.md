@@ -37,56 +37,6 @@ The project is built with a modular architecture for easy adaptation and extensi
 
 ---
 
-## 📁 Project Structure
-
-```
-project-root/
-├── data/           # Input CSV and HDF5 files
-├── notebooks/      # EDA and model experiments in Jupyter
-├── src/            # Source code for preprocessing and modeling
-├── models/         # Trained models and prediction scripts
-└── README.md       # Project overview and documentation
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- pip / virtualenv
-
-### Installation
-
-1. Clone the repository  
-```bash
-git clone https://github.com/your-username/pressure-injury-prediction.git
-cd pressure-injury-prediction
-```
-
-2. Create virtual environment and install dependencies  
-```bash
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-pip install -r requirements.txt
-```
-
-3. Prepare your data  
-- Place your `.csv` and `.h5` files in the `data/` directory.
-
-4. Run feature extraction & model training scripts  
-```bash
-python src/train_model.py
-```
-
-5. Make predictions  
-```bash
-python src/predict_condition.py --input data/sample_new.h5
-```
-
----
-
 ## 🏆 Project Highlights
 
 - 📊 Achieved **90%+ accuracy** using Random Forest and LASSO models.
@@ -109,26 +59,9 @@ We welcome contributions from the GitHub community!
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙏 Acknowledgements
 
 - Tools & Libraries: `pandas`, `h5py`, `scikit-learn`, `numpy`, `matplotlib`
 - Mentorship & Research Support from Taipei Medical University
 
 ---
-
-## 📬 Contact
-
-**Abdul Hannan**  
-📧 [abdulhannan.shaikhh@gmail.com](mailto:abdulhannan.shaikhh@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/abdulhannan-shaikh/)  
-💻 [GitHub](https://github.com/abdulhannan-99)
-
----
-
-**Bringing AI into healthcare to empower early intervention and save lives.**
